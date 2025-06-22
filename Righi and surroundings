@@ -1,0 +1,105 @@
+from pathlib import Path
+
+# Versione arricchita della scheda #3 con tono personale, approfondimento sulla funicolare e excerpt più evocativo
+yaml_righi_enhanced = """DTO:
+  url: /genova/righi-forte-sperone-loop
+  title: Righi & Forte Sperone – A Hilltop Life
+  excerpt: >
+    Genoa’s skyline from above, a fortress at your back, sea at your feet.
+    Then a descent through quiet paths, villages, picnic tables, and rustic flavors — the city’s countryside is closer than you think.
+  author: Luca / Bike Fever
+  datetime: auto
+  coords:
+    lat: 44.41150
+    lon: 8.94800
+  map_url: "https://maps.app.goo.gl/5pX4eVtAYwDMLZpQA"
+  best_time: "March–October, especially late afternoon to sunset"
+  tags:
+    - cycling
+    - view
+    - family
+    - picnic
+    - singletrack
+    - expert-loop
+    - offroad
+    - funicular
+    - food
+    - story
+  details:
+    personal_note: >
+      Whether learning to ride a mountain bike or the art of flirting, the Righi hilltop has always been the natural countryside escape for downtown Genoa.
+      You’ll meet the classic local family enjoying a lunch break at a picnic table, first-time hikers and seasoned walkers, fitness lovers on the asphalt or dirt workout loops,
+      and small civic or cultural groups who help preserve and reimagine the Forts.
+      I’m no exception: I’ve spent the first 50 years of my life on Righi’s slopes — and I can’t count how many afternoons and evenings I’ve enjoyed here.
+      I kissed my partner here for the first time (she still puts up with me!), I brought my kids, my dogs, my friends… and sometimes just my thoughts.
+      There’s something about this place that clears your head and sets you free.
+    mobility:
+      - "Funicolare Zecca–Righi: a historical hill railway dating back to 1897. It covers 278 m in elevation in just over 12 minutes and runs every 15 min at peak times.
+         Bikes are welcome on board. It’s not just a means of transport — it’s a symbolic ascent from the city to the open sky."
+    loop_options:
+      - name: "Expert Loop via Forte Diamante"
+        difficulty: "High"
+        description: >
+          From Forte Sperone continue to Forte Diamante – steep, rocky and technical, ideal for expert riders. Full loop ~11 km.
+      - name: "Family Route: Sentiero delle Farfalle"
+        difficulty: "Easy–Medium"
+        description: >
+          Starts near the helipad under Forte Sperone, crossing under Osteria delle Baracche and following the old Caella railway path through quiet hamlets to Trensasco.
+    food:
+      - name: "Osteria Ricchettu"
+        description: >
+          Hidden in green shade along Via Mura delle Chiappe. Local cold cuts, frittate, focaccia & coffee.
+          Best for brunch or quiet lunch outdoors. Informal and authentic.
+        coords:
+          lat: 44.41359
+          lon: 8.94422
+        map_url: "https://maps.app.goo.gl/qzghPDBn5XTQN4Lb7"
+      - name: "Pizzeria Montallegro"
+        description: >
+          Spectacular sunset views from Righi hilltop. Pizza and Ligurian dishes, ideal for dinner. Reservation strongly recommended.
+          Stylish and relaxed.
+        coords:
+          lat: 44.41645
+          lon: 8.94686
+        map_url: "https://maps.app.goo.gl/VqVZnoivyw7JA8wG8"
+      - name: "Circolo ARCI Diamante"
+        description: >
+          Rugged charm, cultural association with bar and terrace. Simple food, amazing views, check opening hours in advance.
+        coords:
+          lat: 44.41883
+          lon: 8.94721
+        map_url: "https://maps.app.goo.gl/arj1mp4J2nkyKgrk9"
+      - name: "La Baita del Diamante"
+        description: >
+          True rustic spot near Forte Diamante, often used by locals and hikers. Wooden tables, open air.
+          Good for drinks and recharge. Check seasonal schedule.
+        coords:
+          lat: 44.41691
+          lon: 8.95063
+        map_url: "https://maps.app.goo.gl/NXFALVSVXyq2HbdV6"
+    highlights:
+      - name: "Forte Sperone"
+        description: >
+          1827 military fortress with wide-angle view of the city, sea, and hills.
+        coords:
+          lat: 44.41800
+          lon: 8.95700
+      - name: "Forte Diamante"
+        description: >
+          Remote, scenic and wind-blown – perfect for adventurers with legs and lungs.
+        coords:
+          lat: 44.41500
+          lon: 8.95400
+      - name: "Trensasco village"
+        description: >
+          End of the family route – tranquil village, railway relics and trails back to city.
+        coords:
+          lat: 44.41400
+          lon: 8.94500
+"""
+
+# Salvataggio del file definitivo con approfondimento e nota personale
+file_path = Path("/mnt/data/righi-forte-sperone-completo.yaml")
+file_path.write_text(yaml_righi_enhanced, encoding="utf-8")
+
+file_path.name
