@@ -1,0 +1,27 @@
+DTO:
+  url: /genova/santo-stefano-terrace-monumental-bridge
+  title: Santo Stefano Terrace & Monumental Bridge
+  excerpt: >
+    A hidden terrace above Via XX Settembre where Romanesque elegance meets Liberty-era grandeur:
+    admire the striped marble façade of Santo Stefano, the dramatic Palace of Giants, and the busy arches
+    of the Mercato Orientale. Don't miss the secret stairway or the cyclist’s shortcut.
+  author: Luca / Bike Fever
+  datetime: auto
+  coords:
+    lat: 44.40634
+    lon: 8.93894
+  details:
+    history:
+      - "Santo Stefano Church (c.972), Romanesque icon with marble and slate stripes, linked to baptisms of Columbus and Balilla"
+      - "Ponte Monumentale (1890–95) by Cesare Gamba, replacing Porta degli Archi; monumental archway 21 m high"
+      - "Palace of Giants (1896) by Carbone & Fuselli, with 8 reinforced concrete Atlantes, first of its kind in Genoa"
+    architecture:
+      - "Romanesque façade with striped marble, gothic‑Roman dome (1306)"
+      - "Liberty‑style palazzi nearby: Cupole, Hotel Bristol, Orzali, Pastorino, showcasing early 20th‑century urban renewal"
+    market:
+      - "Mercato Orientale (1899): first reinforced concrete building in Genoa (Hennebique); 5 500 m², 42 storage cellars, 360 m colonnades, marble décor"
+    experiences:
+      - "Hidden staircase outside the right side of the nave (facing altar) leads up to Ponte Monumentale for a stunning view"
+      - "Cyclist’s tip: to access the terrace by bike, ride through Via delle Casacce, then turn into Via Lorenzo Garaventa leading directly to the piazzale"
+      - "On foot: under the church's portico you'll find a steep staircase heading up to the terrace"
+      - "The terrace offers layered perspectives: medieval church, Liberty palaces, Castelluccio vista toward Levante"
